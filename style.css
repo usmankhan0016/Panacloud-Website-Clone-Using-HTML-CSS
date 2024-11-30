@@ -1,0 +1,863 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100%;
+}
+/* ------------------------------------------------------------------------------------------- */
+header {
+  width: 100%;
+}
+.header-top-div {
+  width: 100%;
+  height: 49px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #212121;
+}
+.socail-icon-div {
+  width: 210px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 27px;
+}
+.circle-icon-div {
+  width: 30px;
+  height: 30px;
+  background-color: #303030;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-icon-div {
+  width: 543px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.phone-icon-div p {
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.phone-icon-div button {
+  margin-left: 3px;
+  padding: 6px 10px;
+  background-color: #a2d84c;
+  border-radius: 2px;
+  border: none;
+}
+.phone-icon-div button:hover {
+  background-color: #febd18;
+  color: black;
+}
+/* navbar code */
+.navbar {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.navbar img {
+  width: 191px;
+  padding-left: 35px;
+}
+.navbar-list {
+  width: 870px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.navbar-list li {
+  list-style: none;
+}
+.navbar-list a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  color: black;
+}
+.navbar-list a:hover {
+  color: #febd18;
+}
+/* ------------------------------------------------------------------------------- */
+.slide-image-div {
+  width: 100%;
+  height: 523px;
+  position: relative;
+}
+.image-content-div {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  top: 158px;
+}
+.content-top-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.side-div {
+  width: 345px;
+  height: 74px;
+  background-color: #4e7115e4;
+}
+.content-top-div h1 {
+  font-size: 68px;
+  color: white;
+}
+.content-bottom-div {
+  width: 100%;
+  height: 140px;
+  margin-top: 28px;
+}
+.content-bottom-div pre {
+  text-align: center;
+  font-size: 21px;
+  color: white;
+}
+.btn-div {
+  text-align: center;
+  margin-top: 40px;
+}
+.btn-div button {
+  background-color: #febd18;
+  padding: 15px 55px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+/* Swiper CSS */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+/* ----------------------------------------------------------------------------------- */
+.advantages-section {
+  width: 100%;
+  height: 493px;
+  background-color: white;
+}
+.adv-top {
+  width: 100%;
+  height: 130px;
+}
+.adv-top h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 35px;
+  color: #668e19;
+}
+.adv-top h1 .sp1 {
+  color: black;
+}
+.adv-top pre {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 16px;
+  color: #c4c2c2;
+}
+.adv-bottom-div {
+  width: 100%;
+  height: 263px;
+  margin-top: 5px;
+  display: flex;
+  padding-left: 58px;
+  gap: 37px;
+}
+.icons-div {
+  width: 215px;
+  height: 100%;
+}
+.circle-div {
+  background-color: #f2f2f2;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+.icon {
+  width: 70%;
+}
+.icons-div h3 {
+  color: black;
+  text-align: center;
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.icons-div p {
+  margin-top: 6px;
+  color: #c4c2c2;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+/* ------------------------------------------------------------------------------------------ */
+.AboutUs-Div {
+  width: 100%;
+  height: 466px;
+  background-image: url("./All-images/about.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.AboutUs-Div .sp1 {
+  color: black;
+}
+.AboutUs-Div h1 {
+  text-align: center;
+  color: #668e19;
+  font-size: 45px;
+}
+.about-text-div {
+  width: 518px;
+  height: 318px;
+  margin-left: 81px;
+  margin-top: 27px;
+}
+.about-text-div p {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.about-text-div button {
+  background-color: #febd18;
+  padding: 15px 44px;
+  margin-top: 32px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+/* ------------------------------------------------------------------- */
+.OurServices-div {
+  width: 100%;
+  height: 475px;
+  background-color: white;
+}
+.SerivicesTop-div {
+  width: 100%;
+  text-align: center;
+}
+.SerivicesTop-div .sp1 {
+  color: black;
+}
+.SerivicesTop-div h1 {
+  padding-top: 36px;
+  font-size: 43px;
+  color: #668e19;
+}
+.SerivicesTop-div pre {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c4c2c2;
+}
+.ServicesBottom-div {
+  margin-top: 30px;
+  width: 100%;
+  height: 262px;
+  padding-left: 80px;
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+}
+.services-cards {
+  width: 282px;
+  height: 219px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.services-cards .star-logo {
+  width: 75px;
+  margin-top: -39px;
+}
+.ServicesCard-text {
+  width: 213px;
+  height: 137px;
+  margin-left: 34px;
+}
+.ServicesCard-text h4 {
+  margin-top: 23px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ServicesCard-text p {
+  margin-top: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #c4c2c2;
+  margin-bottom: 18px;
+}
+.ServicesCard-text a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #668e19;
+}
+/* -------------------------------------------------------------------------------------- */
+.OurPortfolio-Div {
+  width: 100%;
+  height: 737px;
+  background-color: #212121;
+}
+.PortfolioTop-DIv {
+  margin-top: 4px;
+  width: 100%;
+  height: 178px;
+  text-align: center;
+}
+.PortfolioTop-DIv .sp1 {
+  color: white;
+}
+.PortfolioTop-DIv h1 {
+  font-size: 46px;
+  padding-top: 33px;
+  color: #668e19;
+}
+.PortfolioTop-DIv pre {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #c4c2c2;
+}
+.PortfolioTop-DIv .PortfilioLink-Div {
+  width: 100%;
+  margin-top: 17px;
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 290px;
+  gap: 32px;
+}
+.PortfilioLink-Div a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  &:hover {
+    color: orange;
+  }
+}
+
+.PortfolioBottom-Div {
+  margin-top: 18px;
+  width: 100%;
+  height: 473px;
+}
+.PortfolioBottom-Div .Portfolio-Grid-Container {
+  width: 1170px;
+  margin-left: 84px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+/* Code for Portfolio section Images */
+.Portfolio-Grid-Container .portfilio-image-div {
+  height: 235px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(239, 58, 58);
+  }
+}
+/* Background color for each div */
+.c1 {
+  background-color: white;
+}
+.c2 {
+  background-color: #5e5e5e;
+}
+.c3 {
+  background-color: #d2d3d5;
+}
+.c4 {
+  background-color: #838383;
+}
+.c5 {
+  background-color: white;
+}
+.c6 {
+  background-color: #a3a3a3;
+}
+.c7 {
+  background-color: #d2d3d5;
+}
+.c8 {
+  background-color: white;
+}
+.c9 {
+  background-color: #838383;
+}
+.c10 {
+  background-color: #5e5e5e;
+}
+/* ----------------------------------------------------------------------------------------- */
+.OurProcess-Div {
+  width: 100%;
+  height: 472px;
+  text-align: center;
+  background-color: white;
+}
+.OurProcess-Div h1 {
+  font-size: 43px;
+  margin-top: 40px;
+  color: #668e19;
+}
+.OurProcess-Div pre {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c4c2c2;
+}
+.ProcessBottom-Div {
+  width: 1143px;
+  height: 247px;
+  border: 2px solid transparent;
+  margin-top: 38px;
+  margin-left: 82px;
+  display: flex;
+  gap: 50px;
+  overflow: hidden;
+}
+.ProcessIcon-Div {
+  width: 158px;
+  height: 100%;
+  border: 2px solid transparent;
+}
+.ProcessCircle-Div {
+  width: 142px;
+  height: 142px;
+  border: 4px solid #d1d2d4;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ProcessCircle-Div::after {
+  content: "";
+  width: 63px;
+  height: 4px;
+  background-color: #d2d3d5;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+}
+.ProcessCircle-Div .PrecessCounter-Div {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #febd18;
+  position: absolute;
+  top: -17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 800;
+}
+.ProcessIcon-Div h3 {
+  margin-top: 22px;
+  font-size: 16px;
+}
+.ProcessIcon-Div pre {
+  margin-top: 14px;
+}
+/* --------------------------------------------------------------------------------------- */
+.PeopleAbout-Div {
+  width: 100%;
+  height: 500px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-top: 18px;
+}
+.PeopleAbout-Div h1 {
+  font-size: 43px;
+  color: #668e19;
+}
+.PeopleAbout-Div pre {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c4c2c2;
+}
+.PeopleBottom-Div {
+  width: 1180px;
+  height: 296px;
+  border: 2px solid transparent;
+  margin: auto;
+  margin-top: 33px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.PeopleReview {
+  width: 588px;
+  height: 146px;
+  border: 2px solid transparent;
+  display: flex;
+}
+.PeopleProfile {
+  width: 103px;
+  height: 103px;
+  border: 2px solid transparent;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.PeopleProfile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.PeopleText {
+  width: 375px;
+  height: 95px;
+  border: 2px solid transparent;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.PeopleText h3 {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 2px;
+}
+.PeopleText p {
+  color: black;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.BottomCircles-Div {
+  width: 75px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  margin-top: 10px;
+}
+.BottomCircles-Div .circle-div {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #febd18;
+}
+/* ------------------------------------------------------------------------------------- */
+.OurSkill-Div {
+  width: 100%;
+  height: 492px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: white;
+}
+.OurSkill-Div h1 {
+  margin-top: 42px;
+  font-size: 43px;
+  color: #668e19;
+}
+.OurSkill-Div pre {
+  margin-top: 11px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c4c2c2;
+}
+.SkillBottom-Div {
+  margin: auto;
+  margin-top: 43px;
+  width: 1000px;
+  height: 248px;
+  border: 2px solid transparent;
+  display: flex;
+  gap: 55px;
+}
+.SkillsCards {
+  width: 205px;
+  height: 100%;
+  border: 2px solid transparent;
+}
+.SkillsCards img {
+  border-radius: 50%;
+  width: 195px;
+}
+.SkillsCards p {
+  margin-top: 25px;
+  font-weight: 600;
+}
+/* ----------------------------------------------------------------------------- */
+.projectRequestDiv {
+  width: 100%;
+  height: 343px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: #8dc73f;
+}
+.projectRequestDiv h1 {
+  margin-top: 46px;
+  font-size: 63px;
+  color: white;
+}
+.inputDiv {
+  width: 1030px;
+  height: 65px;
+  border: 2px solid transparent;
+  margin: auto;
+  margin-top: 34px;
+  display: flex;
+  gap: 20px;
+}
+.inputDiv input {
+  width: 247px;
+  height: 51px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-left: 15px;
+
+  &::placeholder {
+    color: #c4c2c2;
+  }
+}
+.inputDiv button {
+  margin-left: 16px;
+  width: 196px;
+  height: 51px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #febd18;
+  cursor: pointer;
+}
+.projectRequestDiv pre {
+  margin-top: 26px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+/* ---------------------------------------------------------------------------------- */
+.OurContactsDiv {
+  width: 100%;
+  height: 650px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: white;
+}
+.OurContactsDiv h1 {
+  margin-top: 40px;
+  font-size: 44px;
+  color: #668e19;
+}
+.OurContactsDiv pre {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c4c2c2;
+}
+.mapH1 {
+  width: 975px;
+  height: 37px;
+  border: 2px solid transparent;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.mapH1 p {
+  margin-left: 8px;
+  color: black;
+  font-size: 23px;
+  font-weight: 600;
+}
+.mapPhoneDiv {
+  width: 830px;
+  height: 40px;
+  border: 2px solid transparent;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.mapPhoneDiv p {
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: 500;
+  color: black;
+}
+.googleMap {
+  width: 100%;
+  height: 380px;
+  border: 2px solid transparent;
+  margin-top: 33px;
+}
+.googleMap iframe {
+  width: 100%;
+  height: 100%;
+}
+/* -------------------------------------------------------------------------- */
+footer {
+  width: 100%;
+  height: 363px;
+  border: 2px solid transparent;
+  background-color: #668e19;
+  display: flex;
+  align-items: center;
+}
+.footerFirstDiv {
+  width: 237px;
+  height: 260px;
+  border: 2px solid transparent;
+  margin-left: 85px;
+}
+.footerFirstDiv img {
+  margin-top: 5px;
+  margin-left: 3px;
+  width: 150px;
+}
+.footerFirstDiv p {
+  margin-top: 12px;
+  font-size: 14px;
+  color: white;
+}
+.footerFirstDiv .copyRight {
+  margin-top: 58px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.footerSecondDiv {
+  width: 212px;
+  height: 260px;
+  border: 2px solid transparent;
+  border-right: 2px solid #7bad2d;
+  margin-left: 120px;
+}
+.footerSecondDiv h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: white;
+}
+.footerSecondDiv ul {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footerSecondDiv ul li {
+  list-style: none;
+}
+.footerSecondDiv ul li a {
+  font-size: 15px;
+  color: white;
+}
+
+.footerThirdDiv {
+  width: 233px;
+  height: 260px;
+  border: 2px solid transparent;
+  border-right: 2px solid #7bad2d;
+  margin-left: 63px;
+}
+.footerThirdDiv h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: white;
+}
+.footerThirdDiv ul {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footerThirdDiv ul li {
+  list-style: none;
+}
+.footerThirdDiv ul li a {
+  font-size: 15px;
+  color: white;
+}
+.footerFourthDiv {
+  width: 180px;
+  height: 260px;
+  border: 2px solid transparent;
+  margin-left: 68px;
+}
+.footerFourthDiv h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+}
+.contactsNumberDiv {
+  width: 100%;
+  height: 23px;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.contactsNumberDiv p {
+  margin-left: 3px;
+  font-size: 16px;
+  color: white;
+}
+.footerFourthDiv .followHeading {
+  font-size: 24px;
+  margin-top: 40px;
+}
+.iconsDiv {
+  width: 100%;
+  height: 33px;
+  border: 2px solid transparent;
+  margin-top: -3px;
+  display: flex;
+  gap: 5px;
+}
+.IconsCircleDiv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background-color: #303030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
